@@ -1,2 +1,5 @@
-# ipw-2024-1
-Introdução à Programação para Web (2024.1) - Universidade Católica de Pernambuco
+# Introdução à Programação para Web (2024.1)
+
+## Sistemas para Internet da Universidade Católica de Pernambuco
+
+Repositório contendo os códigos de exemplo desta disciplina
