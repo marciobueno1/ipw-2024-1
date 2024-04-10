@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>IPW (UNICAP) - Formulários</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <h1>Formulários</h1>
+    <hr />
+    <form action="https://www.w3schools.com/action_page.php">
+      Nome do usuário: <input type="text" name="usuario" /><br />
+      Senha: <input type="password" name="senha" /><br />
+      <input type="submit" value="Login" />
+    </form>
+    <hr />
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+      <fieldset>
+        <legend>Envie sua mensagem</legend>
+        Nome: <input type="text" name="nome" /><br />
+        E-mail: <input type="email" name="email" /><br />
+        Assunto: <input type="text" name="assunto" /><br />
+        Mensagem: <textarea name="mensagem"></textarea><br />
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+    <hr />
+    <form action="https://www.w3schools.com/action_page.php">
+      <fieldset>
+        <legend>Cadastro de produto</legend>
+        Nome do produto: <input type="text" name="nome" /><br />
+        Código de barras: <input type="text" name="codigo" /><br />
+        Preço: <input type="text" name="preco" /><br />
+        Seção:
+        <select name="secao">
+          <option value="hortifruti">Hortifrúti</option>
+          <option value="carnes">Carnes</option>
+        </select>
+        <br />
+        <input type="submit" value="Cadastrar" />
+      </fieldset>
+    </form>
+  </body>
+</html>
