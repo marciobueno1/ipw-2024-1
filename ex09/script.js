@@ -2,7 +2,7 @@ const h2Subst = document.getElementById("h2Subst");
 const btSubst = document.getElementById("btSubst");
 
 btSubst.onclick = () => {
-  h2Subst.innerHTML = "Novo texto";
+  const numSorteado = Math.floor(Math.random() * 100) + 1;
+  h2Subst.innerHTML = "Número sorteado: " + numSorteado;
   h2Subst.className = "destaque";
-  btSubst.disabled = true;
 };
