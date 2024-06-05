@@ -4,3 +4,16 @@ td {
   width: 400px;
   border: dashed;
 }
+
+.grid {
+  border: solid;
+  color: red;
+}
+
+.tblAnimal {
+  color: blue;
+}
+
+h1:hover {
+  color: green;
+}
