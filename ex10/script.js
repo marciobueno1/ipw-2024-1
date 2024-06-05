@@ -8,4 +8,4 @@ const handleBtCarregarClick = async () => {
   preDados.innerHTML = JSON.stringify(data);
 };
 
-btSubst.onclick = handleBtCarregarClick;
+btCarregar.onclick = handleBtCarregarClick;
