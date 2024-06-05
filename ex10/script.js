@@ -11,6 +11,7 @@ const handleBtCarregarClick = async () => {
   divImg.innerHTML = "";
   const img = document.createElement("img");
   img.src = data.url;
+  divImg.appendChild(img);
 };
 
 btCarregar.onclick = handleBtCarregarClick;
